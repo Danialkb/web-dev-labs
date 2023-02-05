@@ -1,0 +1,182 @@
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.wraper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+.inner-wraper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    background-color: white;
+    padding: 10px 0;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 12px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1px;
+    border: 1px solid rgb(222, 222, 222);
+}
+
+.box h1 {
+
+}
+
+.phones img{
+    height: 580px;
+}
+
+#insta-logo {
+    width: 175px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#acc-input {
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+}
+
+#acc-input input{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 9px 0 7px 8px;
+    border-radius: 3px;
+    border: 1px solid rgb(222, 222, 222);
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 5px;
+}
+
+#acc-input input:focus {
+    outline: 1px solid rgb(180, 180, 180);
+}
+
+#btn {
+    width: 268px;
+    height: 36px;
+    margin: 8px 40px 8px 40px;
+    /*background-color: #0095F6;*/
+    display: flex;
+    justify-content: center;
+}
+
+#btn button {
+    width: 100%;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#btn button:hover {
+    background-color: rgb(20, 160, 240);
+}
+
+#or {
+    width: 268px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+#or span {
+    color: rgb(142, 142, 142);
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#or hr{
+    width: 100px;
+    height: 0.1px;
+    color: rgb(219, 219, 219);
+    border: 0.5px solid ;
+}
+
+#facebook {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#facebook img {
+    margin-top: 4px;
+}
+
+#facebook a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(56, 81, 133);
+    font-weight: bold;
+}
+
+#forgot-password {
+    text-decoration: none;
+    color: rgb(0, 55, 107);
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+.register {
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: white;
+    border: 1px solid rgb(222, 222, 222);
+    padding: 10px 0 10px 0;
+}
+
+#regbox {
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+.register a{
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    font-weight: bold;
+}
+
+#install-app img {
+    height: 40px;
+}
+
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer .extra {
+    list-style-type: none;
+}
+
+footer .extra li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+}
+
+footer span {
+    color: rgb(142, 142, 142);
+}
