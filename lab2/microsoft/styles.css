@@ -1,0 +1,210 @@
+body {
+    font-family: Arial,sans-serif;
+}
+
+.wraper {
+    width: 1680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-head {
+    margin: 0;
+    padding: 0 84px 0 84px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.left-side img {
+    margin-top: 0;
+    height: 50px;
+}
+
+.left-side ul {
+    list-style-type: none;
+}
+
+.left-side li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.left-side ul a {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.left-side ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#ms365-info {
+    width: 1540px;
+    height: 300px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-image: url("imgs/backg.png");
+}
+
+#ms365-info {
+    padding: 150px 0 0 150px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#ms365-info h1 {
+    font-weight: 500;
+}
+#ms365-info a {
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#ms365-info .links {
+    margin-top: 20px;
+    display: flex;
+    font-size: 14px;
+}
+
+#ms365-link1 {
+    background-color: rgb(0, 103, 184);
+    color: white;
+    padding: 10px 12px 10px 12px;
+    margin-right: 20px;
+    border-radius: 2px;
+}
+
+#ms365-link1 a{
+    color: white;
+    font-weight: bold;
+}
+
+#ms365-link1:hover{
+    background-color: rgb(0, 113, 184);
+}
+
+#ms365-link2 {
+    padding: 10px 12px 10px 12px;
+}
+
+#ms365-link2 a {
+    color: black;
+    font-weight: bold;
+
+}
+
+#ms365-link2 a:hover {
+    text-decoration: underline;
+}
+
+.ms-apps {
+    width: 1680px;
+    display: flex;
+    justify-content: center;
+}
+
+.ms-apps div {
+    width: 360px;
+    margin-left: 18px;
+}
+
+.ms-apps img {
+    width: 360px;
+    margin-top: 80px;
+}
+
+.ms-apps a {
+    text-decoration: none;
+    color: rgb(0, 103, 184);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ms-apps a:hover {
+    text-decoration: underline;
+}
+
+.ms-apps .first-block {
+    margin-left: 0;
+}
+
+.outlook {
+    width: 1495px;
+    height: 568px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.outlook .install-button {
+    width: 60px;
+    padding: 10px 12px 10px 12px;
+    background-color: rgb(0, 103, 184);
+    border-radius: 2px;
+    text-align: center;
+}
+
+.outlook a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.outlook img {
+    margin-top: 157px;
+    width: 650px;
+}
+
+.for-bussiness h1 {
+    margin-left: 92px;
+    margin-bottom: 0;
+    height: 0;
+}
+
+.for-bussiness {
+    width: 1680px;
+    margin-top: 80px;
+    justify-content: left;
+    margin-bottom: 80px;
+}
+
+footer {
+    width: 1680px;
+    height: 50px;
+    margin-bottom: -10px;
+    background-color: #f5f5f5;
+    text-align: right;
+
+}
+
+footer ul {
+    margin-right: 86px;
+    list-style-type: none;
+}
+
+footer ul a, li {
+    margin-right: 7px;
+    margin-top: 7px;
+    font-size: 11px;
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+
