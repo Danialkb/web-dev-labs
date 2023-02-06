@@ -1,11 +1,13 @@
 body {
     font-family: Arial,sans-serif;
+    /*justify-content: center;*/
 }
 
 .wraper {
     width: 1680px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .site-head {
@@ -141,7 +143,7 @@ body {
     width: 1495px;
     height: 568px;
     margin-top: 100px;
-    margin-left: 93px;
+    /*margin-left: 93px;*/
     display: flex;
     justify-content: space-evenly;
     align-items: center;
