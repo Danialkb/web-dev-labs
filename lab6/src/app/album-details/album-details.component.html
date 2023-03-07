@@ -1,0 +1,11 @@
+<div class="albumContainer">
+  <a routerLink="/albums">Go back</a>
+  <h3>{{album.id}} {{album.title}}</h3>
+  <a [routerLink]="['/albums', album.id, 'photos']">Photos</a><br>
+  <button type="button" (click)="this.editing=true">Edit</button>
+  <div *ngIf="editing">
+    <h3>New Title</h3>
+    <input type="text" [(ngModel)]="edittedAlbum.title">
+    <button type="button" (click)="saveEdit()">Save</button>
+  </div>
+</div>
