@@ -1,0 +1,6 @@
+<div *ngFor="let c of companies">
+  <h1>{{c.id}}</h1>
+  <a [title]="c.name + ' details'" [routerLink]="['/companies/', c.id]">{{c.name}}</a>
+  <h3>{{c.city}}</h3>
+  <p>{{c.description}}</p>
+</div>
